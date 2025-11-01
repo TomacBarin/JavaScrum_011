@@ -16,3 +16,15 @@ inputHtml.addEventListener("keydown", (e) => {
         inputHtml.value = "";
     }
 })
+
+// Remove
+// buttonHtml.addEventListener("click", () => {
+//     const lastItem = listHtml.lastElementChild;
+//     if (lastItem) {
+//         lastItem.remove()
+//     }
+// })
+
+buttonHtml.addEventListener("click", () => {
+    listHtml.style.color = "#FF39D4";
+})
