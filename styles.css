@@ -1,0 +1,37 @@
+:root {
+  /* Grayscale */
+  --able-gray-10: #141414;  
+  --able-gray-20: #2D2D2D;  
+  --able-gray-30: #3C3C3C;  
+  --able-gray-40: #484848;  
+  --able-gray-50: #646464;  
+
+  /* Text */
+  --able-text: #EEEEEE;     
+
+  /* Vibrant accents */
+  --able-hot-pink: #FF39D4;     
+  --able-fuchsia-tom: #FF2B6F;  
+  --able-peach: #FFA374;        
+  --able-coral: #FF94A6;        
+  --able-cyan: #19E9FF;         
+  --able-aqua: #5CFFE8;         
+  --able-orange: #F39420;       
+  --able-lemon: #FFF034;        
+  --able-pale-yellow: #F7F47C;  
+}
+
+body {
+    color: var(--able-text);
+    background-color: var(--able-gray-20);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 25px;
+}
